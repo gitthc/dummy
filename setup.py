@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name='dummy',
-    version='1.0.0',
+    version='1.0.1',
     packages=['puppet'],
     install_requires=[
         "torch>=1.6.0",
@@ -14,15 +14,9 @@ setup(
     platforms='any',
     # person
     author='thc',
-    author_email='a@b.com',
     description='useless',
     long_description='useless',
     license='MIT',
     keywords='useless',
     url='https://github.com/gitthc/dummy.git',
-    classifiers=(
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ),
 )
